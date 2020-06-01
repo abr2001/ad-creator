@@ -1,0 +1,25 @@
+{
+    "type": "object",
+    "properties": {
+        "user_id": {
+            "type": "integer"
+        },
+        "ad": {
+            "type": "object",
+            "properties": {
+                "title": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "city": {
+                    "type": "string"
+                }
+
+            },
+            "required": ["title", "description", "city"]
+        }
+    },
+    "required": ["user_id"]
+}
