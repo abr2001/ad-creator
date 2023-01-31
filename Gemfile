@@ -20,7 +20,7 @@ gem 'dry-initializer', '~> 3.0.3'
 
 gem 'activerecord_json_validator'
 
-gem 'activesupport', '~> 6.0.0', require: false
+gem 'activesupport', '~> 6.0.6', require: false
 gem 'fast_jsonapi', '~> 1.5'
 
 gem 'pry-byebug'
